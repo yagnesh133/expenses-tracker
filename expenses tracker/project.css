@@ -1,0 +1,50 @@
+body {
+    background: #eef2f7;
+    font-family: sans-serif;
+}
+
+.app {
+    width: 360px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.income { color: green; }
+.expense { color: red; }
+
+form input, form button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    padding: 6px;
+    background: #f7f7f7;
+}
+
+li.plus { border-left: 4px solid green; }
+li.minus { border-left: 4px solid red; }
